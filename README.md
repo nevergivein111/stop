@@ -1,4 +1,7 @@
 stop
 ====
+Only 3 Routes are working now
 
-stop
+/index
+/index/content
+index/contenttwo 
