@@ -1,9 +1,7 @@
 <section id="big-map">
 
     <div id="flatads-main-map"></div>
-
-
-    <img src="images/banner.jpg" width="1350" height="424">
+        <?php echo $this->tag->image(array("images/banner.jpg","width" => "1350",'height'=>'424')); ?>
 
     <div id="advanced-search-widget-version2">
 

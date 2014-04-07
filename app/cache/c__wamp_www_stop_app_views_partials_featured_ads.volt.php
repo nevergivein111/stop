@@ -26,7 +26,7 @@
 
     <a class="ad-image" href="#">
 
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
+         <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
     </a>
 
     <div class="ad-box-content">
@@ -53,7 +53,7 @@
 
     <a class="ad-image" href="#">
 
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
+         <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
     </a>
 
     <div class="ad-box-content">
@@ -80,7 +80,7 @@
 
     <a class="ad-image" href="#">
 
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
+         <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
     </a>
 
     <div class="ad-box-content">
@@ -107,7 +107,7 @@
 
     <a class="ad-image" href="#">
 
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
+         <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
     </a>
 
     <div class="ad-box-content">
@@ -134,7 +134,7 @@
 
     <a class="ad-image" href="#">
 
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
+         <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
     </a>
 
     <div class="ad-box-content">
@@ -161,7 +161,59 @@
 
     <a class="ad-image" href="#">
 
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
+         <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
+    </a>
+
+    <div class="ad-box-content">
+
+			    				<span class="ad-category">
+
+
+					        		<div class="category-icon-box" style="background-color: #6997c4;"><i
+                                                class="fa fa-wrench"></i></div>
+
+
+			    				</span>
+
+        <a href="#">Looking for experienced and highly qu...</a>
+
+        <div class="add-price"><span>€3000</span></div>
+
+    </div>
+
+</div>
+
+
+<div class="ad-box span3">
+
+    <a class="ad-image" href="#">
+        <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
+    </a>
+
+    <div class="ad-box-content">
+
+			    				<span class="ad-category">
+
+
+					        		<div class="category-icon-box" style="background-color: #6997c4;"><i
+                                                class="fa fa-wrench"></i></div>
+
+
+			    				</span>
+
+        <a href="#">Looking for experienced and highly qu...</a>
+
+        <div class="add-price"><span>€3000</span></div>
+
+    </div>
+
+</div>
+
+
+<div class="ad-box span3">
+
+    <a class="ad-image" href="#">
+        <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
     </a>
 
     <div class="ad-box-content">
@@ -188,7 +240,7 @@
 
     <a class="ad-image" href="#">
 
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
+         <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
     </a>
 
     <div class="ad-box-content">
@@ -215,7 +267,7 @@
 
     <a class="ad-image" href="#">
 
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
+         <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
     </a>
 
     <div class="ad-box-content">
@@ -242,61 +294,7 @@
 
     <a class="ad-image" href="#">
 
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
-    </a>
-
-    <div class="ad-box-content">
-
-			    				<span class="ad-category">
-
-
-					        		<div class="category-icon-box" style="background-color: #6997c4;"><i
-                                                class="fa fa-wrench"></i></div>
-
-
-			    				</span>
-
-        <a href="#">Looking for experienced and highly qu...</a>
-
-        <div class="add-price"><span>€3000</span></div>
-
-    </div>
-
-</div>
-
-
-<div class="ad-box span3">
-
-    <a class="ad-image" href="#">
-
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
-    </a>
-
-    <div class="ad-box-content">
-
-			    				<span class="ad-category">
-
-
-					        		<div class="category-icon-box" style="background-color: #6997c4;"><i
-                                                class="fa fa-wrench"></i></div>
-
-
-			    				</span>
-
-        <a href="#">Looking for experienced and highly qu...</a>
-
-        <div class="add-price"><span>€3000</span></div>
-
-    </div>
-
-</div>
-
-
-<div class="ad-box span3">
-
-    <a class="ad-image" href="#">
-
-        <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image' src='images/img2.jpg'/>
+         <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
     </a>
 
     <div class="ad-box-content">
@@ -354,8 +352,7 @@
         <a class="ad-image" href="#">
 
 
-            <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image'
-                                                                        src='images/img2.jpg'/>
+            <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
         </a>
 
     </div>
@@ -390,8 +387,7 @@
         <a class="ad-image" href="#">
 
 
-            <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image'
-                                                                        src='images/img2.jpg'/>
+            <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
         </a>
 
     </div>
@@ -426,8 +422,7 @@
         <a class="ad-image" href="#">
 
 
-            <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image'
-                                                                        src='images/img2.jpg'/>
+            <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
         </a>
 
     </div>
@@ -462,8 +457,7 @@
         <a class="ad-image" href="#">
 
 
-            <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image'
-                                                                        src='images/img2.jpg'/>
+            <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
         </a>
 
     </div>
@@ -498,9 +492,8 @@
         <a class="ad-image" href="#">
 
 
-            <img class='add-box-main-image' src='images/img1.jpg'/><img class='add-box-second-image'
-                                                                        src='images/img2.jpg'/>
-        </a>
+            <?php echo $this->tag->image(array("images/img1.jpg","class" => "add-box-main-image")); ?><?php echo $this->tag->image(array("images/img2.jpg","class" => "add-box-second-image")); ?>
+       </a>
 
     </div>
 
